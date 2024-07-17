@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulário de Login</title>
+</head>
+<body>
+
+<h2 class="h1">Formulário de Login</h2>
+
+<form class="sla" id="loginForm" onsubmit="return exibirMensagem()">
+    <label class="la1" for="email">Email:</label><br>
+    <input class="email" id="email" name="email" required><br><br>
+    
+    <label class="la2" for="senha">Senha:</label><br>
+    <input class="se1" type="password" id="senha" name="senha" required><br><br>
+    
+    <input class="su" type="submit" value="Login">
+</form>
+
+<p class="mensa"  id="mensagem"></p>
+
+<style>
+
+.sla{
+    position: absolute;
+    top: 470px;
+}
+
+   *{background-color: rgb(61, 57, 57);
+}
+
+.la1{
+   color: rgb(235, 55, 55);
+   position: absolute;
+   left: 930px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.email{
+    position: absolute;
+    left: 865px;
+    border-radius: 10%;
+    background-color: rgb(255, 255, 255);
+}
+
+.h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 104, 104);
+    position: absolute;
+    top: 230px;
+    left: 610px;
+    font-size: 80px;
+}
+
+.la2{
+   color: rgb(235, 55, 55);
+   position: absolute;
+   left: 930px;
+   font-family: Arial, Helvetica, sans-serif;
+}   
+
+.se1{
+   color: rgb(235, 55, 55);
+   position: absolute;
+   left: 865px;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: aliceblue;
+   border-radius: 10%;
+}    
+
+.su{
+   color: rgb(235, 55, 55);
+   position: absolute;
+   left: 930px;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: aliceblue;
+   border-radius: 10%;
+}  
+
+.mensa{
+   color: rgb(241, 241, 241);
+   position: absolute;
+   left: 790px;
+   top: 600px;
+   font-family: Arial, Helvetica, sans-serif;
+   border-radius: 10%;
+}
+
+
+
+</style>
+
+<script>
+function exibirMensagem() {
+    var email = document.getElementById("email").value;
+    var senha = document.getElementById("senha").value;
+    
+    // Aqui você pode validar o email e a senha se necessário
+    
+    var mensagem = "Login realizado com sucesso para o email: " + email;
+    document.getElementById("mensagem").textContent = mensagem;
+    
+    // Retorna false para evitar o envio do formulário
+    return false;
+}
+</script>
+
+</body>
+</html>
