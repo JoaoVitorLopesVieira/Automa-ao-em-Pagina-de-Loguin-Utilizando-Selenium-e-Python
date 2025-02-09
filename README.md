@@ -7,4 +7,4 @@ O script em Python utiliza Selenium para abrir o formulário em um navegador, pr
 
 Para utilizar o projeto, clone o repositório e abra o arquivo HTML em um navegador. Também é necessário ter o Python e as dependências do Selenium instaladas. O script pode ser executado para simular o processo de login.
 
-As contribuições são bem-vindas e você pode abrir problemas ou enviar pull requests para melhorias. Este projeto está licenciado sob a Licença MIT e esperamos que ele seja uma ferramenta útil para aprendizado em desenvolvimento web
+As contribuições são bem-vindas e você pode abrir problemas ou enviar pull requests para melhorias. Este projeto está licenciado sob a Licença MIT e esperamos que ele seja uma ferramenta útil para aprendizado em desenvolvimento web.
