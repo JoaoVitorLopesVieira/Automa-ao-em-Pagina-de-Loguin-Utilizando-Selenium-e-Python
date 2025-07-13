@@ -8,3 +8,21 @@ O script em Python utiliza Selenium para abrir o formulário em um navegador, pr
 Para utilizar o projeto, clone o repositório e abra o arquivo HTML em um navegador. Também é necessário ter o Python e as dependências do Selenium instaladas. O script pode ser executado para simular o processo de login.
 
 As contribuições são bem-vindas e você pode abrir problemas ou enviar pull requests para melhorias. Este projeto está licenciado sob a Licença MIT e esperamos que ele seja uma ferramenta útil para aprendizado em desenvolvimento web.
+
+
+O que Aprendi com Este Projeto
+Criação de Formulários em HTML: Aprendi a construir um formulário básico de login, incluindo campos para e-mail e senha, e a implementar a lógica para exibir mensagens de sucesso após o envio.
+
+Estilização com CSS: Descobri como usar CSS para melhorar a apresentação do formulário, garantindo que os elementos sejam claros e acessíveis.
+
+Automação de Testes com Selenium: Explorei o uso da biblioteca Selenium para automatizar a interação com o formulário, simulando o comportamento de um usuário real em um navegador.
+
+Gerenciamento de Drivers com webdriver_manager: Entendi como usar a biblioteca webdriver_manager para facilitar a instalação e gerenciamento do driver do Chrome, tornando a configuração do ambiente de testes mais simples.
+
+Manipulação de Eventos em JavaScript: Aprendi a evitar o recarregamento da página ao enviar o formulário, utilizando JavaScript para interromper o comportamento padrão do evento de envio.
+
+Integração entre HTML e Python: Descobri como integrar um front-end em HTML com scripts de automação em Python, ampliando minhas habilidades em desenvolvimento web e testes.
+
+Execução de Scripts Python: Familiarizei-me com o ambiente Python e a instalação de dependências necessárias para executar scripts de automação.
+
+Documentação e Colaboração: Entendi a importância de documentar o projeto e disponibilizar espaço para contribuições, promovendo um ambiente colaborativo.
